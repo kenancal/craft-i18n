@@ -3946,3 +3946,10 @@ document scrollbar width	Wide	Geniş
 	Confidence for this suggestion	Bu önerinin güven puanı
 	{label} · {source} · {confidence}	{label} · {source} · {confidence}
 	Confidence for this word crop only; the original word confidence is unchanged. Border: {padding} px.	Güven puanı yalnızca bu sözcük kırpmasına aittir; özgün sözcüğün güven puanı değişmez. Kenar boşluğu: {padding} piksel.
+	the ocrs engine does not support Turkish; choose Tesseract or Automatic with Turkish (tur) language data installed	Yerleşik OCR motoru Türkçeyi desteklemiyor. Tesseract için Türkçe dil verisini (tur) yükleyin ve motoru Tesseract veya Otomatik olarak ayarlayın.
+	Turkish OCR requires the Turkish (tur) language data installed for tesseract	Tesseract için Türkçe dil verisi (tur) eksik. Devam etmek için bu veriyi yükleyin.
+	the turkish_extended model profile requires Tesseract; choose Tesseract or Automatic	Genişletilmiş Türkçe alfabesi profili Tesseract gerektirir. Motoru Tesseract veya Otomatik olarak ayarlayın.
+	text recognition failed: turkish_extended supports only Turkish; choose tr or tur and the Tesseract engine	Metin tanıma başlatılamadı. Genişletilmiş Türkçe alfabesi profili yalnızca Türkçe için kullanılabilir. Belge dili olarak Türkçeyi seçin (kabul edilen dil kodları: tr ve tur). Motoru Tesseract olarak ayarlayın.
+@msg	Turkish OCR requires Tesseract with Turkish (tur) language data: {why}	Türkçe OCR için Tesseract çalışabilmeli ve Türkçe dil verisi (tur) yüklü olmalıdır. Ayrıntı: {why}
+@msg	the turkish_extended model profile requires every Tesseract model: {models}; no Standard fallback is used	Genişletilmiş Türkçe alfabesi profili şu Tesseract modellerinin tümünü gerektirir: {models}. Eksik modelleri yükleyin. Standart profile otomatik geçiş yapılmaz.
+@msg	the turkish_extended model profile requires every Tesseract model: {models}; no Standard fallback is used: {why}	Genişletilmiş Türkçe alfabesi profili için Tesseract çalışabilmeli ve şu modellerin tümü yüklü olmalıdır: {models}. Standart profile otomatik geçiş yapılmaz. Ayrıntı: {why}

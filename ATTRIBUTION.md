@@ -282,6 +282,14 @@ clean room; no other product's localisation, string table or translated interfac
 consulted or copied. These original translations are contributed under MIT OR Apache-2.0.
 Native-speaker review is not recorded.
 
+## PdfCraft: Turkish OCR model preflight
+
+Seven rows in `locales/tr/pdfcraft.tsv` cover OCR model and engine requirements. Four rows
+use the exact engine wording and three message templates keep their named detail and model
+placeholders. AI-assisted translations from the meaning of the English strings, without
+consulting another product's localisation. These original translations are contributed under
+MIT OR Apache-2.0. No native-speaker review is recorded.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),
